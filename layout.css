@@ -1,3 +1,152 @@
 html {
   font-size: 62.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #080808;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.ul1 {
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ul2 {
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul2 li {
+  padding-inline-start: 1rem;
+}
+
+.port {
+  margin-inline-start: -1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background-image: url("https://source.unsplash.com/1600x900/?city,night");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.presentation {
+  background-color: rgb(10, 10, 10, 0.82);
+  color: #fc4f00;
+  padding: 1.5rem;
+}
+
+.presentation h1 {
+  font-size: 1.8rem;
+  padding-block-end: 1rem;
+}
+
+.presentation h2 {
+  font-size: 1.4rem;
+  padding-block-end: 1.5rem;
+}
+
+.presentation ol li {
+  padding-block-end: 1rem;
+}
+
+.presentation ol li a {
+  text-decoration: none;
+  color: #f7c04a;
+}
+
+.presentation ol li a strong {
+  color: white;
+  padding-inline-end: 0.3rem;
+}
+
+.past {
+  background-color: white;
+  padding: 1rem;
+}
+
+.past h1 {
+  font-size: 1.4rem;
+}
+
+.card-section {
+  border: 1px solid salmon;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.card-section > * {
+  border: 1px solid rgb(68, 66, 66);
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  flex: 1 1 100%;
+}
+
+.card-section figure {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-section figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card h1 {
+  font-weight: 800;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-block-end: 1.5rem;
+}
+
+.card button {
+  margin-block-end: 1rem;
+  background-color: #e86a33;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
+.present {
+  background-color: aquamarine;
+}
+
+@media only screen and (min-width: 700px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .second-container {
+    background-color: grey;
+    padding: 3rem;
+  }
 }
