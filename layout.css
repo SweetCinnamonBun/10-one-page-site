@@ -143,10 +143,11 @@ html {
 @media only screen and (min-width: 501px) {
   .card-section {
     padding: 0;
+    gap: 0;
   }
   .card-section > * {
     flex: 1 1 0;
-    max-width: 50%;
+    max-width: 33%;
   }
 }
 
