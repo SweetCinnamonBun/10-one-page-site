@@ -77,17 +77,21 @@ html {
   padding-inline-end: 0.3rem;
 }
 
+.second-container {
+  background-color: #333333;
+}
+
 .past {
   background-color: white;
   padding: 1rem;
 }
 
 .past h1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .card-section {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,28 +141,146 @@ html {
 }
 
 .present {
-  background-color: aquamarine;
+  margin-block-start: 2rem;
+  padding: 1.5rem;
+  border-top: 2px solid #5d7181;
+  border-bottom: 2px solid #5d7181;
+  background-color: #333333;
+}
+
+.present h1 {
+  font-size: 2rem;
+  color: #e86a33;
+  padding-block-end: 1.5rem;
+  padding-block-start: 0.5rem;
+}
+
+.present p {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.present figure {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.present figure img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.future {
+  padding: 1.5rem;
+  border-bottom: 2px solid #5d7181;
+  background-color: #333333;
+}
+
+.future h1 {
+  font-size: 2rem;
+  color: #e86a33;
+  padding-block-end: 1.5rem;
+  padding-block-start: 0.5rem;
+}
+
+.future p {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.future figure {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.future figure img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.contact {
+  padding: 1.5rem;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  color: #e86a33;
+  padding-block-end: 0.5rem;
+}
+
+.contact form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact form label {
+  font-size: 1.4rem;
+  color: white;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+.contact form input {
+  align-self: stretch;
+  padding: 1rem;
+}
+
+.contact form button {
+  margin-block-start: 1.8rem;
+  background-color: #e86a33;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  color: black;
+  font-weight: 500;
+  border: none;
+  color: white;
+}
+
+footer {
+  border-top: 1.5px solid silver;
+  color: white;
+  font-size: 1.4rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 0.5rem;
+}
+
+footer h1,
+p {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 501px) {
-  .card-section {
-    padding: 0;
-    gap: 0;
-  }
   .card-section > * {
     flex: 1 1 0;
-    max-width: 33%;
+    max-width: 50%;
   }
 }
 
-@media only screen and (min-width: 769px) {
-  /* .container {
+@media only screen and (min-width: 1000px) {
+  .container {
     width: 80%;
     margin: auto;
-  } */
+  }
 
   .second-container {
-    background-color: grey;
+    background-color: #333333;
     padding: 3rem;
+  }
+
+  .navbar {
+    font-size: 1.8rem;
   }
 }
