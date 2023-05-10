@@ -257,15 +257,6 @@ footer {
   padding-inline-start: 0.5rem;
 }
 
-.yeet {
-}
-.like {
-}
-/* footer h1,
-p {
-  display: inline-block;
-} */
-
 @media only screen and (min-width: 501px) {
   .card-section > * {
     flex: 1 1 0;
