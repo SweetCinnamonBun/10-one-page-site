@@ -272,6 +272,68 @@ footer {
   }
 }
 
+@media only screen and (min-width: 559px) {
+  .contact form > .form-member {
+    flex-direction: row;
+    margin-block-end: 2rem;
+  }
+
+  .contact form .form-member > * {
+    flex: 1 1 0;
+  }
+
+  .contact form .form-member input {
+    flex-grow: 3;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .present-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .present-div > * {
+    flex: 1 1 0;
+  }
+
+  .present figure {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    order: 1;
+  }
+
+  .present figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .present p {
+    flex-grow: 1.5;
+  }
+
+  .future figure {
+    width: 40%;
+    height: 180px;
+    overflow: hidden;
+    padding-inline-end: 1rem;
+    padding-block-start: 1rem;
+    float: left;
+  }
+
+  .future figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 751px) {
   .card-section > * {
     flex: 1 1 0;
@@ -297,5 +359,54 @@ footer {
 
   .contact form .form-member input {
     flex-grow: 3;
+  }
+
+  .present-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .present-div > * {
+    flex: 1 1 0;
+  }
+
+  .present figure {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    order: 1;
+  }
+
+  .present figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .present p {
+    flex-grow: 1.5;
+  }
+
+  .future figure {
+    width: 40%;
+    height: 180px;
+    overflow: hidden;
+    padding-inline-end: 1rem;
+    padding-block-start: 1rem;
+    float: left;
+  }
+
+  .future figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 85%;
+    margin: auto;
   }
 }
