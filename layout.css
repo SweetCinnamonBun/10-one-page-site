@@ -223,7 +223,11 @@ html {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+}
+
+.contact form > .form-member {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact form label {
@@ -272,13 +276,6 @@ footer {
   .card-section > * {
     flex: 1 1 0;
   }
-}
-
-@media only screen and (min-width: 1000px) {
-  .container {
-    width: 80%;
-    margin: auto;
-  }
 
   .second-container {
     background-color: #333333;
@@ -287,5 +284,18 @@ footer {
 
   .navbar {
     font-size: 1.8rem;
+  }
+
+  .contact form > .form-member {
+    flex-direction: row;
+    margin-block-end: 2rem;
+  }
+
+  .contact form .form-member > * {
+    flex: 1 1 0;
+  }
+
+  .contact form .form-member input {
+    flex-grow: 3;
   }
 }
