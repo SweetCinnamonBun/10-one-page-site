@@ -259,8 +259,18 @@ footer {
 }
 
 @media only screen and (min-width: 501px) {
+  .card-section {
+    justify-content: flex-start;
+  }
+
   .card-section > * {
     flex: 0 1 40%;
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  .card-section > * {
+    flex: 1 1 0;
   }
 }
 
