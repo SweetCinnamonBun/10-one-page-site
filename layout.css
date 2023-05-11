@@ -50,6 +50,7 @@ html {
   background-color: rgb(10, 10, 10, 0.82);
   color: #fc4f00;
   padding: 2rem;
+  height: 300px;
 }
 
 .presentation h1 {
@@ -58,13 +59,13 @@ html {
 }
 
 .presentation h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-block-end: 1.5rem;
 }
 
 .presentation ol li {
-  padding-block-end: 1rem;
-  font-size: 1.2rem;
+  padding-block-end: 2rem;
+  font-size: 1.4rem;
 }
 
 .presentation ol li a {
@@ -260,6 +261,10 @@ footer {
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   padding-inline-start: 0.5rem;
+}
+
+footer > * {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 501px) {
